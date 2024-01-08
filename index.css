@@ -1,0 +1,168 @@
+html,
+body {
+    background-color: #292A2D;
+    color: #FFFFFF;
+    font-family: 'Noticia Text', serif;
+}
+
+.b-dark {
+    background-color: #1F1F1F;
+}
+
+#profile-icon {
+    background: #78909C;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile-icon:hover {
+    cursor: pointer;
+    outline: 5px solid #292A2D;
+}
+
+header a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#navbarNav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
+
+#navbarNav a:hover {
+    opacity: 1;
+}
+
+.act {
+    color: #88B1F3 !important;
+    border-bottom: 4px solid #88B1F3;
+}
+
+#intro {
+    height: 100px;
+    margin: 0 auto;
+}
+
+#description h1 {
+    font-size: 28px;
+}
+
+#weather-box {
+    width: 220px;
+    border-radius: 20px;
+}
+
+.weather-info {
+    font-size: 12px;
+}
+
+.weather-info h2 {
+    margin: 0;
+}
+
+.weather-info p {
+    margin: 0;
+}
+
+#weather-link {
+    text-decoration: none;
+    color: #88B1F3;
+}
+
+#weather-link:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+.fa-solid.fa-snowflake {
+    font-size: 50px;
+    color: #00BFFF;
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+}
+
+.fa-solid.fa-snowflake:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.vertical-line {
+    border-left: 1px solid #FFFFFF;
+    height: 22px;
+    margin: 0 10px;
+    align-self: center;
+}
+
+#exampleFormControlInput {
+    background-color: #333333;
+    color: #FFFFFF;
+    border: none;
+}
+
+#exampleFormControlInput::placeholder {
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+#main-content {
+    margin: 0 auto;
+}
+
+#main-content p {
+    font-size: 13px;
+}
+
+#main-content a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#first-col {
+    background-color: #1F1F1F;
+    padding: 16px;
+    border-radius: 20px
+}
+
+#first-col h4 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#first-col h5 {
+    margin: 0;
+    color: #00BFFF;
+}
+
+#first-col img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#second-col {
+    background-color: #1F1F1F;
+    padding: 16px;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px
+}
+
+#second-col h5 {
+    color: #968ABC;
+}
+
+#second-col img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
