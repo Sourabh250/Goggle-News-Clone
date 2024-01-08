@@ -1,4 +1,4 @@
-FlexNews
+# FlexNews
 Description
 FlexNews is an open-source project aimed at replicating the functionality of Google News. It aggregates news from various sources, providing users with a comprehensive and up-to-date news experience. This project is designed to showcase the ability to fetch, categorize, and display news articles from around the world.
 
